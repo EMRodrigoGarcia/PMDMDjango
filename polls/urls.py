@@ -4,6 +4,7 @@ from . import views
 
 router = routers.DefaultRouter()
 router.register(r'question', views.QuestionViewSet)
+router.register(r'choice', views.ChoiceViewSet)
 
 
 urlpatterns = [
